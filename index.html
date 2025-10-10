@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lyrical Limonade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====== BANNER PRINCIPAL ====== -->
+  <header class="banner">
+    <div class="banner-content">
+
+      <!-- Logo esquina superior izquierda -->
+      <div class="logo">
+        <img src="img/foto2.png" alt="Logo Lyrical Lemonade">
+      </div>
+
+      <!-- Título y navegación -->
+      <div class="titulo">
+        <h1>Lyrical Limonade</h1>
+        <nav class="nav-links">
+          <a href="#artistas">Artistas</a>
+          <a href="#ropa">Ropa y Artículos</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Logo YouTube -->
+    <a href="http://www.youtube.com/@lyricalemonade" target="_blank" class="youtube-link" aria-label="Canal de YouTube">
+      <img src="img/foto3.png" alt="YouTube">
+    </a>
+  </header>
+
+  <!-- ====== HISTORIA ====== -->
+  <section id="historia" class="historia-section">
+    <div class="historia-bloque">
+      <div class="historia-texto">
+        <h2>El Inicio de Lyrical Lemonade</h2>
+        <p>
+          Lyrical Lemonade nació en 2013 de la mano de <strong>Cole Bennett</strong>, un joven creativo de Chicago
+          apasionado por el hip-hop y la dirección audiovisual. Lo que comenzó como un simple blog de rap, 
+          rápidamente se transformó en una <em>plataforma cultural influyente</em> que impulsó la carrera de decenas
+          de artistas emergentes. Con su estilo vibrante y visuales únicos, Bennett redefinió el estándar 
+          de los videos musicales urbanos.
+        </p>
+      </div>
+      <div class="historia-media">
+        <img src="img/foto4.jpg" alt="Cole Bennett en sus inicios">
+      </div>
+    </div>
+
+    <div class="historia-bloque">
+      <div class="historia-texto">
+        <h2>Grandes Éxitos</h2>
+        <p>
+          Bajo la dirección de Cole, <strong>Lyrical Lemonade</strong> ha producido algunos de los videos más icónicos 
+          del rap moderno, trabajando con artistas como <em>Juice WRLD, Ski Mask, Eminem y Lil Yachty</em>.
+          Su canal de YouTube supera los <strong>20 millones de suscriptores</strong> y cada estreno se convierte
+          en un evento global para los fanáticos del género.
+        </p>
+      </div>
+      <div class="historia-media">
+        <div class="video">
+          <video controls>
+            <source src="videos/video1.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="historia-bloque">
+      <div class="historia-texto">
+        <h2>Conciertos y Futuro</h2>
+        <p>
+          Los festivales organizados por Lyrical Lemonade, como el <strong>Summer Smash</strong>, reúnen a miles 
+          de fanáticos cada año en Chicago. Con una visión en constante expansión, la marca sigue creciendo 
+          hacia el futuro del entretenimiento urbano, manteniendo siempre su esencia original: 
+          la pasión por la música y la creatividad visual.
+        </p>
+      </div>
+      <div class="historia-media">
+        <img src="img/foto5.jpg" alt="Festival Lyrical Lemonade">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ARTISTAS (ahora 8) ====== -->
+  <section id="artistas" class="artists-section">
+    <h2>Artistas</h2>
+
+    <!-- Grid 2x4 (responsive) -->
+    <div class="artist-gallery" id="artistGallery">
+
+      <!-- EXISTENTES (mantengo tus 4 originales) -->
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Juice WRLD"
+               data-img="img/foto6.jpg"
+               data-bio="Juice WRLD fue un talento de la escena emo-rap, conocido por su habilidad para mezclar melodía y letras emotivas. Su colaboración con Lyrical Lemonade ayudó a llevar su música a audiencias globales.">
+        <img src="img/foto6.jpg" alt="Juice WRLD">
+        <h3>Juice WRLD</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Ski Mask The Slump God"
+               data-img="img/foto7.jpg"
+               data-bio="Ski Mask es reconocido por su flow rápido y rítmico y sus visuales excéntricos. Sus videoclips con Cole Bennett destacaron por creatividad y energía.">
+        <img src="img/foto7.jpg" alt="Ski Mask">
+        <h3>Ski Mask The Slump God</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Lil Pump"
+               data-img="img/foto8.jpg"
+               data-bio="Lil Pump irrumpió en la escena con su energía explosiva y estética provocativa. Los visuales ayudaron a consolidar su imagen en la cultura trap.">
+        <img src="img/foto8.jpg" alt="Lil Pump">
+        <h3>Lil Pump</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Eminem"
+               data-img="img/foto9.jpg"
+               data-bio="Eminem, leyenda del rap, colaboró en proyectos visuales de gran impacto. Su experiencia y presencia elevan cualquier producción audiovisual.">
+        <img src="img/foto9.jpg" alt="Eminem">
+        <h3>Eminem</h3>
+      </article>
+
+      <!-- NUEVOS (4 que pediste) -->
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Lil Skies"
+               data-img="img/foto10.jpg"
+               data-bio="Lil Skies combina letras introspectivas con melodías pegajosas. Su estilo emo-trap y sensibilidad lírica lo convirtieron en un referente para nuevas generaciones.">
+        <img src="img/foto10.jpg" alt="Lil Skies">
+        <h3>Lil Skies</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Lil Mosey"
+               data-img="img/foto11.jpg"
+               data-bio="Lil Mosey destaca por su capacidad para crear hooks memorables y producciones limpias. Sus colaboraciones con videógrafos dieron lugar a clips muy estéticos.">
+        <img src="img/foto11.jpg" alt="Lil Mosey">
+        <h3>Lil Mosey</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="NLE Choppa"
+               data-img="img/foto12.jpg"
+               data-bio="NLE Choppa aporta una mezcla de energía combativa y conciencia lírica. Sus performances destacan por intensidad y presencia en cámara.">
+        <img src="img/foto12.jpg" alt="NLE Choppa">
+        <h3>NLE Choppa</h3>
+      </article>
+
+      <article class="artist-card glass-card" tabindex="0" role="button"
+               data-name="Lil Tecca"
+               data-img="img/foto13.jpg"
+               data-bio="Lil Tecca es conocido por melodías pegajosas y producción moderna. Sus videos suelen jugar con colores vibrantes y conceptos juveniles.">
+        <img src="img/foto13.jpg" alt="Lil Tecca">
+        <h3>Lil Tecca</h3>
+      </article>
+
+    </div>
+  </section>
+
+   <!-- Sección Ropa y Artículos -->
+    <section id="ropa" class="shop-section">
+        <h2>Ropa y Artículos</h2>
+        <div class="product-gallery">
+            <div class="product-card">
+                <img src="img/foto14.jpg" alt="Hoodie Lyrical">
+                <h3>Hoodie Lyrical</h3>
+                <p>$60</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto15.jpg" alt="T-shirt Lyrical">
+                <h3>T-shirt Lyrical</h3>
+                <p>$35</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto16.jpg" alt="Cap Lyrical">
+                <h3>Cap Lyrical</h3>
+                <p>$25</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto17.jpg" alt="Poster Lyrical">
+                <h3>Poster Colección</h3>
+                <p>$15</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto18.jpg" alt="Stickers Lyrical">
+                <h3>Stickers Pack</h3>
+                <p>$10</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto19.jpg" alt="Sweatpants Lyrical">
+                <h3>Sweatpants Lyrical</h3>
+                <p>$45</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto20.jpg" alt="Backpack Lyrical">
+                <h3>Backpack Lyrical</h3>
+                <p>$50</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+            <div class="product-card">
+                <img src="img/foto21.jpg" alt="Limited Edition">
+                <h3>Limited Edition</h3>
+                <p>$80</p>
+                <a href="https://www.instagram.com/_zhakhytov_" target="_blank" class="buy-btn">Comprar</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+  <!-- ====== MODAL ÚNICO (se rellena dinámicamente) ====== -->
+  <div id="artistModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="true"></div>
+
+    <div class="modal-panel glass-modal" role="document" aria-labelledby="modalTitle">
+      <button id="closeModal" class="modal-close" aria-label="Cerrar biografía">&times;</button>
+
+      <div class="modal-body">
+        <img id="modalImg" src="" alt="" class="modal-img">
+        <div class="modal-content">
+          <h3 id="modalTitle">Nombre</h3>
+          <p id="modalBio">Biografía...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
